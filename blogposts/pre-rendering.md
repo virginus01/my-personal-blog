@@ -1,7 +1,7 @@
 ````markdown
 ---
-title: Getting Started with Next.js
-date: 2023-11-03
+title: "Getting Started with Next.js"
+date: "2023-11-03"
 author: Your Name
 tags: [Next.js, React, Web Development]
 ---

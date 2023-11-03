@@ -1,7 +1,7 @@
 ```markdown
 ---
-title: When to Use Static Generation vs. Server-Side Rendering
-date: 2023-11-03
+title: "When to Use Static Generation vs. Server-Side Rendering"
+date: "2023-11-03"
 author: Virginus Alajekwu
 tags:
   [Next.js, React, Web Development, Static Generation, Server-Side Rendering]
