@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "When to Use Static Generation vs. Server-Side Rendering"
 date: "2023-11-03"
@@ -53,5 +52,6 @@ Understanding when to use Static Generation vs. Server-Side Rendering is key to 
 
 - [Next.js Documentation](https://nextjs.org/docs)
 
-Happy coding with Next.js!
-```
+## Happy coding with Next.js!
+
+---

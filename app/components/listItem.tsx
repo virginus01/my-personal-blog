@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Link from "next/link";
 import getFormattedDate from "@/lib/getFormattedDate";
 
@@ -7,13 +8,8 @@ type Props = {
 };
 
 export default function ListItem({ post }: Props) {
-  const { id, title, date } = post as {
-    id: string;
-    title: string;
-    date: string;
-  };
-
-  //const formattedDate = getFormattedDate(date);
+  const { id, title, date } = post;
+  const formattedDate = getFormattedDate(String(date));
   return (
     <li className="mt-4 text-2xl dark:text-white/90">
       <Link
@@ -23,6 +19,7 @@ export default function ListItem({ post }: Props) {
         {title}
       </Link>
       <br />
+      <p className="text-sm mt-1"> {formattedDate}</p>
     </li>
   );
 }

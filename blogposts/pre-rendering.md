@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Getting Started with Next.js"
 date: "2023-11-03"
@@ -25,6 +24,7 @@ npx create-next-app my-nextjs-app
 cd my-nextjs-app
 npm run dev
 ```
+
 ````
 
 This will set up a new Next.js project, and you can start the development server with `npm run dev`. You can access your application at `http://localhost:3000`.
@@ -68,7 +68,5 @@ In future blog posts, we'll dive deeper into advanced topics like data fetching,
 - [Next.js GitHub Repository](https://github.com/vercel/next.js)
 
 Happy coding with Next.js!
-
-```
-
-```
+---
+````
